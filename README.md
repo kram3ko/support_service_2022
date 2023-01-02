@@ -1,18 +1,29 @@
-# Support service application
+# <span style="color:OliveDrab">Support service application</span>
 
 
-
-## Adjust the application
-
+## <span style="color:DarkOliveGreen">Adjust the application</span>
 
 ### Install deps
 
-``` bash
+```bash
 pipenv sync --dev
 
 # Activate the environment
 pipenv shell
 ```
 
-## Code quality tools
-```
+- ### Framework:
+    - Django
+- ### Libraries:
+    - pydantic
+    - requests
+
+## <span style="color:DarkOliveGreen">Code quality tools</span>
+
+
+
+- ### Linter:
+    - flake8
+- ### Code formatters:
+    - black
+    - isort
