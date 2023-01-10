@@ -7,6 +7,3 @@ class ExchangeRatesResults(BaseModel):
 
 class AlphavantageResponse(BaseModel):
     results: ExchangeRatesResults = Field(alias="Realtime Currency Exchange Rate")
-
-def foo():
-    pass
